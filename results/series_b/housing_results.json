@@ -1,0 +1,127 @@
+{
+    "autokeras": {
+        "dataset": "housing",
+        "problem_type": "regression",
+        "max_trials": 60,
+        "seed": 42,
+        "training_time_seconds": 2377.995925426483,
+        "test_metrics": {
+            "mse": 0.21565564740864623,
+            "rmse": 0.4643873893729741,
+            "r2_score": 0.7800047347872913
+        },
+        "best_architecture": "MultiCategoryEncoding() \u2192 Normalization() \u2192 Dense(units=256, activation=linear) \u2192 ReLU() \u2192 Dense(units=1024, activation=linear) \u2192 ReLU() \u2192 Dropout() \u2192 Dense(units=1, activation=linear)",
+        "param_count": 266772,
+        "model_saved": true,
+        "model_path": "models/autokeras/housing/seed_42/model_60trials.keras",
+        "timestamp": "2025-12-25 13:12:52"
+    },
+    "architecture1": {
+        "dataset": "housing",
+        "problem_type": "regression",
+        "architecture": "architecture1",
+        "time_limit_seconds": 3600,
+        "training_time_seconds": 11.105177164077759,
+        "test_metrics": {
+            "mse": 0.4245012102553046,
+            "rmse": 0.6515375739397572,
+            "r2_score": 0.5669565928117337
+        },
+        "param_count": 7849,
+        "model_path": "models/neural/housing/architecture1.keras",
+        "timestamp": "2025-12-26 05:50:29",
+        "training_history": {
+            "loss": [
+                0.5352358818054199,
+                0.4385925233364105,
+                0.41879042983055115,
+                0.4052591621875763,
+                0.40211358666419983,
+                0.38805845379829407
+            ],
+            "val_loss": [
+                0.4471060335636139,
+                0.5393686890602112,
+                0.4766599237918854,
+                0.47252950072288513,
+                0.5212435126304626,
+                0.5110283493995667
+            ],
+            "accuracy": [],
+            "val_accuracy": [],
+            "final_val_loss": 0.5110283493995667,
+            "best_val_loss": 0.4471060335636139,
+            "overfitting_degree": 0.7593677616011789
+        }
+    },
+    "architecture2": {
+        "dataset": "housing",
+        "problem_type": "regression",
+        "architecture": "architecture2",
+        "time_limit_seconds": 3600,
+        "training_time_seconds": 52.94491171836853,
+        "test_metrics": {
+            "mse": 0.29585366234379523,
+            "rmse": 0.5439243167424997,
+            "r2_score": 0.6981929029285189
+        },
+        "param_count": 75105,
+        "model_path": "models/neural/housing/architecture2.keras",
+        "timestamp": "2025-12-26 05:51:23",
+        "training_history": {
+            "loss": [
+                1.1373627185821533,
+                0.6881923675537109,
+                0.5363406538963318,
+                0.48546016216278076,
+                0.46302708983421326,
+                0.4361506402492523,
+                0.42545410990715027,
+                0.41953569650650024,
+                0.3994863033294678,
+                0.3935543894767761,
+                0.3925219774246216,
+                0.3812962770462036,
+                0.37172356247901917,
+                0.3727506995201111,
+                0.36225149035453796,
+                0.3647189140319824,
+                0.3639802634716034,
+                0.35748952627182007,
+                0.35464075207710266,
+                0.35217565298080444,
+                0.3465878665447235,
+                0.3430594503879547
+            ],
+            "val_loss": [
+                0.9650455117225647,
+                0.4654068946838379,
+                0.41610240936279297,
+                0.37094202637672424,
+                0.3573898375034332,
+                0.3398810625076294,
+                0.32723572850227356,
+                0.3231491148471832,
+                0.3222855031490326,
+                0.3149292767047882,
+                0.3200303018093109,
+                0.3215949237346649,
+                0.32728296518325806,
+                0.30949854850769043,
+                0.3044467270374298,
+                0.3124682605266571,
+                0.29717230796813965,
+                0.3130511939525604,
+                0.3067854940891266,
+                0.30866923928260803,
+                0.2995644211769104,
+                0.29890114068984985
+            ],
+            "accuracy": [],
+            "val_accuracy": [],
+            "final_val_loss": 0.29890114068984985,
+            "best_val_loss": 0.29717230796813965,
+            "overfitting_degree": 1.1477355007618557
+        }
+    }
+}

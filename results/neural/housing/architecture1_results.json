@@ -1,0 +1,38 @@
+{
+    "dataset": "housing",
+    "problem_type": "regression",
+    "architecture": "architecture1",
+    "time_limit_seconds": 3600,
+    "training_time_seconds": 11.105177164077759,
+    "test_metrics": {
+        "mse": 0.4245012102553046,
+        "rmse": 0.6515375739397572,
+        "r2_score": 0.5669565928117337
+    },
+    "param_count": 7849,
+    "model_path": "models/neural/housing/architecture1.keras",
+    "timestamp": "2025-12-26 05:50:29",
+    "training_history": {
+        "loss": [
+            0.5352358818054199,
+            0.4385925233364105,
+            0.41879042983055115,
+            0.4052591621875763,
+            0.40211358666419983,
+            0.38805845379829407
+        ],
+        "val_loss": [
+            0.4471060335636139,
+            0.5393686890602112,
+            0.4766599237918854,
+            0.47252950072288513,
+            0.5212435126304626,
+            0.5110283493995667
+        ],
+        "accuracy": [],
+        "val_accuracy": [],
+        "final_val_loss": 0.5110283493995667,
+        "best_val_loss": 0.4471060335636139,
+        "overfitting_degree": 0.7593677616011789
+    }
+}

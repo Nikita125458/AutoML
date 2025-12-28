@@ -1,0 +1,27 @@
+{
+    "7": {
+        "all_seeds": {
+            "42": {
+                "dataset": "bank",
+                "problem_type": "classification",
+                "max_trials": 7,
+                "epochs": 50,
+                "seed": 42,
+                "training_time_seconds": 460.7450053691864,
+                "test_metrics": {
+                    "accuracy": 0.8957204467543957,
+                    "f1_score": 0.8657138558131477,
+                    "num_classes": 2
+                },
+                "best_architecture": "MultiCategoryEncoding() \u2192 Normalization() \u2192 Dense(units=32, activation=linear) \u2192 ReLU() \u2192 Dropout() \u2192 Dense(units=64, activation=linear) \u2192 ReLU() \u2192 Dropout() \u2192 Dropout() \u2192 Dense(units=1, activation=linear) \u2192 Activation()",
+                "param_count": 2754,
+                "model_path": "models/autokeras/bank/seed_42/model_7trials.keras",
+                "timestamp": "2025-12-26 08:20:44"
+            }
+        },
+        "mean_accuracy": 0.8957204467543957,
+        "std_accuracy": 0.0,
+        "mean_f1": 0.8657138558131477,
+        "std_f1": 0.0
+    }
+}

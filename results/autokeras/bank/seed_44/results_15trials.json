@@ -1,0 +1,18 @@
+{
+    "dataset": "bank",
+    "problem_type": "classification",
+    "max_trials": 15,
+    "epochs": 50,
+    "seed": 44,
+    "training_time_seconds": 533.9188692569733,
+    "test_metrics": {
+        "accuracy": 0.8948357845847617,
+        "f1_score": 0.8831972410477197,
+        "num_classes": 2
+    },
+    "best_architecture": "MultiCategoryEncoding() → Normalization() → Dense(units=128, activation=linear) → ReLU() → Dense(units=32, activation=linear) → ReLU() → Dropout() → Dense(units=1, activation=linear) → Activation()",
+    "param_count": 6370,
+    "model_saved": true,
+    "model_path": "models/autokeras/bank/seed_44/model_15trials.keras",
+    "timestamp": "2025-12-25 08:56:25"
+}

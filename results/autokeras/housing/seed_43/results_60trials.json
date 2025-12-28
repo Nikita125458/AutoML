@@ -1,0 +1,18 @@
+{
+    "dataset": "housing",
+    "problem_type": "regression",
+    "max_trials": 60,
+    "epochs": 50,
+    "seed": 43,
+    "training_time_seconds": 1708.8191604614258,
+    "test_metrics": {
+        "mse": 0.21555067343538958,
+        "rmse": 0.4642743514726929,
+        "r2_score": 0.7801118211416925
+    },
+    "best_architecture": "MultiCategoryEncoding() → Normalization() → Dense(units=1024, activation=linear) → ReLU() → Dense(units=16, activation=linear) → ReLU() → Dense(units=256, activation=linear) → ReLU() → Dropout() → Dense(units=1, activation=linear)",
+    "param_count": 31268,
+    "model_saved": true,
+    "model_path": "models/autokeras/housing/seed_43/model_60trials.keras",
+    "timestamp": "2025-12-25 13:41:21"
+}

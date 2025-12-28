@@ -1,0 +1,18 @@
+{
+    "dataset": "churn",
+    "problem_type": "classification",
+    "max_trials": 15,
+    "epochs": 50,
+    "seed": 42,
+    "training_time_seconds": 176.56212878227234,
+    "test_metrics": {
+        "accuracy": 0.7984386089425124,
+        "f1_score": 0.7933786662141391,
+        "num_classes": 2
+    },
+    "best_architecture": "MultiCategoryEncoding() → Normalization() → Dense(units=32, activation=linear) → ReLU() → Dense(units=32, activation=linear) → ReLU() → Dropout() → Dense(units=1, activation=linear) → Activation()",
+    "param_count": 1768,
+    "model_saved": true,
+    "model_path": "models/autokeras/churn/seed_42/model_15trials.keras",
+    "timestamp": "2025-12-25 14:14:48"
+}

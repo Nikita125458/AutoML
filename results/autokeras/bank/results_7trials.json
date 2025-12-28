@@ -1,0 +1,17 @@
+{
+    "dataset": "bank",
+    "problem_type": "classification",
+    "max_trials": 7,
+    "epochs": 50,
+    "training_time_seconds": 367.280061006546,
+    "test_metrics": {
+        "accuracy": 0.8949463673559659,
+        "f1_score": 0.8804463311759938,
+        "num_classes": 2
+    },
+    "best_architecture": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d\u0430 \u0447\u0435\u0440\u0435\u0437 get_best_models",
+    "param_count": 1922,
+    "model_saved": true,
+    "model_path": "models/autokeras/bank/model_7trials.keras",
+    "timestamp": "2025-12-25 04:12:40"
+}

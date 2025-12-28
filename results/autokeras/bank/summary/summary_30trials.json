@@ -1,0 +1,77 @@
+{
+    "dataset": "bank",
+    "max_trials": 30,
+    "seeds": [
+        42,
+        43,
+        44
+    ],
+    "seed_results": {
+        "42": {
+            "dataset": "bank",
+            "problem_type": "classification",
+            "max_trials": 30,
+            "epochs": 50,
+            "seed": 42,
+            "training_time_seconds": 962.4764268398285,
+            "test_metrics": {
+                "accuracy": 0.8970474400088466,
+                "f1_score": 0.8831815759006066,
+                "num_classes": 2
+            },
+            "best_architecture": "MultiCategoryEncoding() → Normalization() → Dense(units=128, activation=linear) → BatchNormalization() → ReLU() → Dropout() → Dense(units=1, activation=linear) → Activation()",
+            "param_count": 2850,
+            "model_saved": true,
+            "model_path": "models/autokeras/bank/seed_42/model_30trials.keras",
+            "timestamp": "2025-12-25 09:12:28"
+        },
+        "43": {
+            "dataset": "bank",
+            "problem_type": "classification",
+            "max_trials": 30,
+            "epochs": 50,
+            "seed": 43,
+            "training_time_seconds": 1205.009572982788,
+            "test_metrics": {
+                "accuracy": 0.8966051089240297,
+                "f1_score": 0.8874999589111758,
+                "num_classes": 2
+            },
+            "best_architecture": "MultiCategoryEncoding() → Normalization() → Dense(units=64, activation=linear) → ReLU() → Dropout() → Dense(units=128, activation=linear) → ReLU() → Dropout() → Dense(units=32, activation=linear) → ReLU() → Dropout() → Dense(units=1, activation=linear) → Activation()",
+            "param_count": 13602,
+            "model_saved": true,
+            "model_path": "models/autokeras/bank/seed_43/model_30trials.keras",
+            "timestamp": "2025-12-25 09:32:34"
+        },
+        "44": {
+            "dataset": "bank",
+            "problem_type": "classification",
+            "max_trials": 30,
+            "epochs": 50,
+            "seed": 44,
+            "training_time_seconds": 939.5078587532043,
+            "test_metrics": {
+                "accuracy": 0.8951675328983745,
+                "f1_score": 0.8806195684309591,
+                "num_classes": 2
+            },
+            "best_architecture": "MultiCategoryEncoding() → Normalization() → Dense(units=128, activation=linear) → ReLU() → Dense(units=32, activation=linear) → ReLU() → Dropout() → Dense(units=1, activation=linear) → Activation()",
+            "param_count": 6370,
+            "model_saved": true,
+            "model_path": "models/autokeras/bank/seed_44/model_30trials.keras",
+            "timestamp": "2025-12-25 09:48:14"
+        }
+    },
+    "statistics": {
+        "accuracy_mean": 0.896273360610417,
+        "accuracy_std": 0.0008025191144928616,
+        "accuracy_min": 0.8951675328983745,
+        "accuracy_max": 0.8970474400088466,
+        "f1_mean": 0.8837670344142472,
+        "f1_std": 0.0028392504343529184,
+        "f1_min": 0.8806195684309591,
+        "f1_max": 0.8874999589111758,
+        "time_mean": 1035.6646195252736,
+        "time_std": 120.11154184377473
+    }
+}
